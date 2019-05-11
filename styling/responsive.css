@@ -1,0 +1,32 @@
+    /*** Mobile View ***/
+
+@media screen and (max-width: 576px) {
+    nav .container {
+        width: 100%;
+    }
+}
+
+
+    /*** Tab View ***/
+
+@media screen and () {
+     body {
+        background-color: blue;
+    }
+}
+
+
+
+    /*** Desktop View ***/
+
+@media screen and (min-width: 660px) {
+    body {
+        background-color: yellowgreen;
+    }
+
+    footer ul.footer-left {
+	    float: left;
+	    list-style: none;
+	    display: inline-flex;
+    }
+}

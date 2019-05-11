@@ -1,0 +1,195 @@
+
+		/*** General Styling ***/
+
+body {
+	background-color: #aaa;
+	font-family: 'Segoe UI', BlinkMacSystemFont, -apple-system, 'Arial Narrow', cursive, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: #222;
+}
+
+	/*** Header Styling ***/
+
+header {
+	text-align: center;
+	font-family: 'Helvetica Neue', cursive, Courier New, Courier, monospace;
+	background-color: #999;
+	margin: 0;
+	padding: 5px;
+}
+
+#navDropdown {
+	font-family: 'Helvetica Neue', cursive, Courier New, Courier, monospace;
+}
+
+		/*** Header Links ***/
+
+header a {
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+header a:visited {
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+header a:hover {
+	color: #555;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+header a:active {
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+
+		/*** Navigation ***/
+
+/**nav {
+	background-color: #555;
+	text-align: center;
+}
+			// Bootsrap has been used to sort this out.
+nav li {
+	display: inline-block;
+}
+**/
+
+
+	/*** Section Styling ***/
+
+/* section {
+	clear: both;
+} */
+
+/* #wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+} */
+
+#trending {
+	float: left;
+	clear: left;
+	width: 400px;
+	height: 25%;
+	text-align: center;
+}
+
+#recent {
+	width: 400px;
+	height: 25%;
+}
+
+aside {
+	background-color: #ccc;
+	font-size: 70px;
+	float: right;
+	clear: right;
+	width: 200px;
+	height: 500px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-radius: 7px 7px 0 0;
+}
+
+#post {
+	background-color: black;
+	color: white;
+	width: inherit;
+	margin: 10px;
+	padding: 10px;
+	clear: both;
+}
+
+#postPic {
+	width: 100px;
+	height: 100px;
+	float: left;
+	border-radius: 100%;
+}
+
+#social-icons ul li {
+	list-style: none;
+	display: inline-flex;
+	float: right;
+}
+
+#social-icons img {
+	width: 30px;
+	height: 30px;
+}
+
+
+	/*** Footer Styling ***/
+
+footer {
+	color: #ddd;
+	clear: both;
+	background-color: #555;
+	padding: 5px;
+	text-align: center;
+}
+
+footer ul {
+	list-style: none;
+	display: inline-flex;
+}
+
+footer ul li {
+	padding-right: 10px;
+}
+
+	/*** Contact Page Styling ***/
+
+#general-info {
+	background-color: lightgray;
+	margin: 5px;
+	padding: 5px;
+	width: 650px;
+	height: 400px;
+}
+
+#additional-info {
+	background-color: lightgray;
+	margin: 5px;
+	padding: 5px;
+	width: 650px;
+	height: 400px;
+}
+
+#phone a {
+	background-image: url('..images/phone.png');
+}
+
+
+	/*** Footer Links ***/
+
+footer ul li a {
+	color: #ddd;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+footer ul li a:visited {
+	color: #ddd;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+footer ul li a:hover {
+	color: #aaa;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+footer ul li a:active {
+	color: #ddd;
+	text-decoration: none;
+	background-color: transparent;
+}
