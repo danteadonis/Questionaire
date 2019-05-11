@@ -7,6 +7,14 @@ body {
 	color: #222;
 }
 
+ul{
+	list-style-type: none;
+}
+
+.fa{
+	padding: 10px;
+}
+
 	/*** Header Styling ***/
 
 header {
@@ -161,10 +169,6 @@ footer ul li {
 	padding: 5px;
 	width: 650px;
 	height: 400px;
-}
-
-#phone a {
-	background-image: url('..images/phone.png');
 }
 
 
